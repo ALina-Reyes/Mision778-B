@@ -73,3 +73,18 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Archivos de VS Code y otros editores
+.vscode/
+.idea/
+
+# Carpetas de importación de Assets (muy pesadas y se regeneran)
+FileOpenOrder/
+
+# Específico para plugins de terceros como MetaXR
+Plugins/**/DerivedDataCache/*
+Plugins/**/Intermediate/*
+Plugins/**/Saved/*
+
+# Archivos temporales de log
+*.log
