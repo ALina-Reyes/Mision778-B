@@ -1,4 +1,4 @@
-# Temporales de Visual Studio y editores
+# --- Temporales de Visual Studio y editores ---
 .vs/
 .vsconfig
 .vscode/
@@ -10,23 +10,18 @@
 *.VC.db
 *.VC.opendb
 
-# Compilados y Binarios
+# --- Compilados y Binarios ---
 Binaries/*
-Plugins/**/Binaries/*
 Build/*
 Intermediate/*
-Plugins/**/Intermediate/*
 DerivedDataCache/*
-Plugins/**/DerivedDataCache/*
 
-# Archivos generados por el Editor
+# --- Archivos generados por el Editor ---
 Saved/*
-Plugins/**/Saved/*
 FileOpenOrder/
 *.log
 
-# Librerías y ejecutables
-*.dll
+# --- Librerías y ejecutables ---
 *.exe
 *.obj
 *.pdb
@@ -35,7 +30,10 @@ FileOpenOrder/
 *.ipa
 *.so
 *.dylib
+*.dll
 
-# Assets precompilados o temporales de mapas
-*_BuiltData.uasset
+# --- Assets de Mapas ---
 SourceArt/
+
+# --- Otros ---
+.DS_Store
