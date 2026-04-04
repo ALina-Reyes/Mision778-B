@@ -61,7 +61,7 @@
 		},
 		{
 			"Name": "OculusPlatform",
-			"Enabled": true,
+			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/7ce814580ba341b4bb5865983fea9d31",
 			"SupportedTargetPlatforms": [
 				"Win64",
